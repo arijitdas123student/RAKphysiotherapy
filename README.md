@@ -1,8 +1,9 @@
 # RAKphysiotherapy
-Remote Physiotherapy System made using LoRa &amp; ML 
+**Remote Physiotherapy System made using LoRa &amp; ML 
 
 
-Short Description -
+**Short Description -
+
 A smart device built for remote physiotherapy services for old-age people , which sends up
 exercising data upto any doctor’s clinic using LoRa protocol. The device is extremely energy
 efficient and can be used from any part of the world and there is no need for any wireless
@@ -11,7 +12,8 @@ Impulse’s efficient and accurate ML models. The device consists of two parts -
 Node and a multi-channel gateway which will remain stationary and will be able to receive
 the data.
 
-Hardwares required -
+**Hardwares required -
+
 ● WisBlock Base Board
 
 ● WisBlock Core Board
@@ -20,7 +22,8 @@ Hardwares required -
 
 ● RAK Discover 2 Gateway kit
 
-Softwares required -
+**Softwares required -
+
 ● Edge Impulse studio (for training the model and doing a live classification)
 
 ● The Things Network (sending data to TTN server and sharing the data feed to the
@@ -28,13 +31,14 @@ doctor)
 
 ● Arduino IDE (putting the C++ code to the WisBlock board)
 
-Brief Circuit explanation -
-WisBlock Base Board + Core Board + Sensor ↠ ​TTN server↠ Gateway↠ ​back to
+**Brief Circuit explanation -
+
+WisBlock Base Board + Core Board + Sensor ↠ TTN server ↠ Gateway ↠ back to
 doctor’s mobile phone/device
 
 1) What need do you see in the community for the problem you are trying to solve?
 
-Senior Citizens or aged people usually face the Chronic disease of Arthritis which requires physiotherapy treatment 
+Senior Citizens or aged people usually face the Chronic disease of Arthritis which requires physiotherapy treatment.
 Have a look at this article - https://www.thephysiocompany.com/blog/how-physiotherapy-can-help-older-people
 
 2) What medical knowledge do you have to be able to solve the problem in the right way? 
@@ -49,3 +53,15 @@ Even if the patient has no LoRa coverage in that are then we can make use of the
 4) Why use WisBlock for this project?
 
 WisBlock are the latest released LoRa boards which are very developer friendly and can be easily expandable, the main fact is that it can communicate via most types of data transfer protocol such as LoRa , NB-IoT , WiFi and BLE. Also it uses a nRF52840 chipset on board which is self sufficient enough to take our ML model to run on that tiny little board. Moreover using WisBlock board is an excellent choice for this project. 
+
+**Project Authors
+
+Arijit Das (https://github.com/arijitdas123student)
+María Carlina Hernández (https://github.com/mariacarlinahernandez)
+Diana Rodriguez (https://github.com/alphacentauri82)
+
+**Copyright & License
+
+This is an open-source project made possible with the great support from RAK Wireless & Edge Impulse team. 
+This project currently occupies an Open-Source MIT License. 
+© MIT
