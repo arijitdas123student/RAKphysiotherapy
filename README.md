@@ -1,8 +1,9 @@
 # RAKphysiotherapy
-**Remote Physiotherapy System made using LoRa &amp; ML 
+**Remote Physiotherapy System made using LoRa &amp; ML **
 
 
-**Short Description -
+**Short Description -**
+
 
 A smart device built for remote physiotherapy services for old-age people , which sends up
 exercising data upto any doctor’s clinic using LoRa protocol. The device is extremely energy
@@ -12,7 +13,7 @@ Impulse’s efficient and accurate ML models. The device consists of two parts -
 Node and a multi-channel gateway which will remain stationary and will be able to receive
 the data.
 
-**Hardwares required -
+**Hardwares required -**
 
 ● WisBlock Base Board
 
@@ -22,7 +23,7 @@ the data.
 
 ● RAK Discover 2 Gateway kit
 
-**Softwares required -
+**Softwares required -**
 
 ● Edge Impulse studio (for training the model and doing a live classification)
 
@@ -31,7 +32,7 @@ doctor)
 
 ● Arduino IDE (putting the C++ code to the WisBlock board)
 
-**Brief Circuit explanation -
+**Brief Circuit explanation -**
 
 WisBlock Base Board + Core Board + Sensor ↠ TTN server ↠ Gateway ↠ back to
 doctor’s mobile phone/device
@@ -54,7 +55,7 @@ Even if the patient has no LoRa coverage in that are then we can make use of the
 
 WisBlock are the latest released LoRa boards which are very developer friendly and can be easily expandable, the main fact is that it can communicate via most types of data transfer protocol such as LoRa , NB-IoT , WiFi and BLE. Also it uses a nRF52840 chipset on board which is self sufficient enough to take our ML model to run on that tiny little board. Moreover using WisBlock board is an excellent choice for this project. 
 
-**Project Authors
+**Project Authors**
 
 Arijit Das (https://github.com/arijitdas123student)
 
@@ -62,8 +63,10 @@ María Carlina Hernández (https://github.com/mariacarlinahernandez)
 
 Diana Rodriguez (https://github.com/alphacentauri82)
 
-**Copyright & License
+**Copyright & License**
 
 This is an open-source project made possible with the great support from RAK Wireless & Edge Impulse team. 
+
 This project currently occupies an Open-Source MIT License. 
+
 © MIT
