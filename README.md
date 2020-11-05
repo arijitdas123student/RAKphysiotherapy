@@ -1,5 +1,5 @@
 # RAKphysiotherapy
-**Remote Physiotherapy System made using LoRa &amp; ML **
+*Remote Physiotherapy System made using LoRa &amp; ML* 
 
 
 **Short Description -**
