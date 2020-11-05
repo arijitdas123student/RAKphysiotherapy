@@ -57,7 +57,7 @@ WisBlock are the latest released LoRa boards which are very developer friendly a
 
 **Project Authors**
 
-Arijit Das (@arijitdas123student)
+Arijit Das (https://github.com/arijitdas123student)
 
 María Carlina Hernández (https://github.com/mariacarlinahernandez)
 
