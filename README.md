@@ -49,7 +49,7 @@ I got the actual project idea from my Dad who is a Physiotherapist. He said me a
 3) Where will the device be used? In the clinic? In the patient’s home? What if the patient does not have access to LoRa coverage?
 
 The RAK Discovery 2 Gateway will be present on the doctor's clinic/lab and the WisBlock board (which will act like the node) will be present in the patients home. 
-Even if the patient has no LoRa coverage in that are then we can make use of the Ultra Low power but highly efficient nRF52840 chipset present on board which can send and transfer data using BLE or we can even add an ESP32 module to it as WisBlock boards are expandable , which will enable us to communicate using highly powerful WiFi and BLE which can then send the ML data to AWS IoT Core and it could forward the data to the doctor directly. 
+Even if the patient has no LoRa coverage in that are then we can make use of the Ultra Low power but highly efficient nRF52840 chipset present on board which can send and transfer data using BLE or we can even add an ESP32 module to it as WisBlock boards are expandable , which will enable us to communicate using highly powerful WiFi and BLE which can then send the ML data to the Ubidots server and it could forward the data to the doctor directly. 
 
 4) Why use WisBlock for this project?
 
