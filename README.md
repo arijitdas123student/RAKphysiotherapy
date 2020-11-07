@@ -57,6 +57,9 @@ Even if the patient has no LoRa coverage in that are then we can make use of the
 
 WisBlock are the latest released LoRa boards which are very developer friendly and can be easily expandable, the main fact is that it can communicate via most types of data transfer protocol such as LoRa , NB-IoT , WiFi and BLE. Also it uses a nRF52840 chipset on board which is self sufficient enough to take our ML model to run on that tiny little board. Moreover using WisBlock board is an excellent choice for this project. 
 
+**Build Logs**
+*Coming Soon! Stay Tuned!*
+
 **Project Authors**
 
 Arijit Das (https://github.com/arijitdas123student)
