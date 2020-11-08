@@ -27,7 +27,7 @@ the data.
 
 ● Edge Impulse studio (for training the model and doing a live classification)
 
-● balenaCloud and balenaOS (for creating the LoRa gateway to communicate to TTN using the latest LoRa BasicStation protocol) 
+● balenaCloud and balenaOS (for enabling the LoRa gateway to communicate to TTN using the latest LoRa BasicStation protocol) 
 
 ● The Things Network (sending data to TTN server and sharing the data feed to the
 doctor)
