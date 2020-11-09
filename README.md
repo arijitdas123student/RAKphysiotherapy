@@ -1,8 +1,9 @@
-# RAKphysiotherapy
-*Remote Physiotherapy System made using LoRa &amp; ML* 
+<html>
+  <body>
+    <p><h3>Remote Physiotherapy System made using LoRa &amp; ML<h3></p>
 
 
-**Short Description -**
+**Short Description -**<p>
 
 
 A smart device built for remote physiotherapy services for old-age people , which sends up
@@ -11,33 +12,35 @@ efficient and can be used from any part of the world and there is no need for an
 networks needed for using the device. The device uses LoRa and is powered by Edge
 Impulse’s efficient and accurate ML models. The device consists of two parts - a small LoRa
 Node and a multi-channel gateway which will remain stationary and will be able to receive
-the data.
+the data.<br>
 
 **Hardwares required -**
 
-● WisBlock Base Board
+● WisBlock Base Board<br>
 
-● WisBlock Core Board
+● WisBlock Core Board<br>
 
-● WisBlock 3-axis accelerometer Sensor
+● WisBlock 3-axis accelerometer Sensor<br>
 
-● RAK Discover 2 Gateway kit
+● RAK Discover 2 Gateway kit<br>
 
 **Softwares required -**
 
-● Edge Impulse studio (for training the model and doing a live classification)
+● Edge Impulse studio (for training the model and doing a live classification)<br>
 
-● balenaCloud and balenaOS (for enabling the LoRa gateway to communicate to TTN using the latest LoRa BasicStation protocol) 
+● balenaCloud and balenaOS (for enabling the LoRa gateway to communicate to TTN using the latest LoRa BasicStation protocol) <br>
 
 ● The Things Network (sending data to TTN server and sharing the data feed to the
-doctor)
+doctor) <br>
 
-● Arduino IDE (putting the C++ code to the WisBlock board)
+● Arduino IDE (putting the C++ code to the WisBlock board)<br>
 
 **Brief Circuit explanation -**
 
 WisBlock Base Board + Core Board + Sensor ↠ TTN server ↠ Gateway ↠ back to
-doctor’s mobile phone/device
+doctor’s mobile phone/device<br>
+
+**Objectives-**
 
 1) What need do you see in the community for the problem you are trying to solve?
 
@@ -57,21 +60,23 @@ Even if the patient has no LoRa coverage in that are then we can make use of the
 
 WisBlock are the latest released LoRa boards which are very developer friendly and can be easily expandable, the main fact is that it can communicate via most types of data transfer protocol such as LoRa , NB-IoT , WiFi and BLE. Also it uses a nRF52840 chipset on board which is self sufficient enough to take our ML model to run on that tiny little board. Moreover using WisBlock board is an excellent choice for this project. 
 
-**Build Logs**
-*Coming Soon! Stay Tuned!*
+**Build Logs**<br>
+*Coming Soon! Stay Tuned!*<br>
 
 **Project Authors**
 
-Arijit Das (https://github.com/arijitdas123student)
+<a href="https://github.com/arijitdas123student">Arijit Das<a>
 
-María Carlina Hernández (https://github.com/mariacarlinahernandez)
-
-Diana Rodriguez (https://github.com/alphacentauri82)
+<a href="https://github.com/mariacarlinahernandez">María Carlina Hernández<a> 
+  
+<a href="https://github.com/alphacentauri82">Diana Rodriguez<a> 
 
 **Copyright & License**
 
-This is an open-source project made possible with the great support from RAK Wireless & Edge Impulse team. 
+This is an open-source project made possible with the great support from <a href="https://rakwireless.com/">RAK Wireless<a> & <a href="https://edgeimpulse.com/">Edge Impulse<a> team. 
 
 This project currently occupies an Open-Source MIT License. 
 
 © MIT
+</body>
+</html>
