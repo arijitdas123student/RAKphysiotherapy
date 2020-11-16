@@ -14,6 +14,11 @@ Impulse’s efficient and accurate ML models. The device consists of two parts -
 Node and a multi-channel gateway which will remain stationary and will be able to receive
 the data.<br>
 
+**Complete Explanation -**
+Okay so the thing is that the WisBlock board has the ability to communicate with some pretty excellent sensors directly....here we will be using Accelerometer sensor attached to the WisBlock starter board kit and then I will send up the sensor data to the Edge Impulse CLI using serial communication and then I will make a Tensorflow model which will run on the board itself (no need of connecting to any cloud or whatever).
+The main idea is that many patients who are in their 70's or older experience pain on their muscles and bones and need some physiotherapy exercises to be able to move their muscles and bones (some biology stuff) and then it will help the doctors to remotely communicate with the patients and know when and how well they are doing their regular exercises and stuff remotely using Edge Impulse and sending data using LoraWAN.
+
+
 **Hardwares required -**
 
 ● WisBlock Base Board<br>
